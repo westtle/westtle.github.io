@@ -10,8 +10,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
         <title>Coming Soon... Maybe.</title>
+        
+    <!-- The <style> -->    
        
-        <style>
+        <style>  
+            body {
+                background-color: var(--bgcolor, white);
+                border-color: var(--whiteborder, black);
+                color: var(--txtcolor, black);
+            }
+            
             .main-cont {
                 display: flex;
                 flex-direction: column;
@@ -22,21 +30,29 @@
             }
            
             .items {
-                
                 max-width: 800px;
-                border: solid 1px;
+                border: solid 1px var(--whiteborder, black);
             }
            
             .link {
                 max-width: 800px;
                 text-align: center;
-                border: solid 1px;
+                border: solid 1px var(--whiteborder, black);
                 margin-top: 10px;
                 padding: 5px 70px;
             }
            
-            a     {
-                text-decoration: none;
+            a {
+                color: var(--linkcolor, black);
+            }
+            
+            button {
+                margin-top: 12px;
+                padding: 3px 70px;
+                color: var(--btncolor1, black);
+                background-color: var(--btncolor2, white);
+                border: 1px solid;
+                cursor: pointer;
             }
         </style>
     </head>
@@ -59,6 +75,55 @@
           <a href="https://steamcommunity.com/id/WesttlE" target="_blank">steam</a> |
           <a href="https://gamejolt.com/@WesttlE" target="_blank">gamejolt</a>
        </div>
+          <button id="theme-btn">Dark Mode</button>
      </div>   
+        
+     <!-- The <script> -->
+        
+     <script>
+         
+        // Dark Mode Toggle.
+        
+         var local = localStorage.getItem("local");
+         var button = document.getElementById("theme-btn");
+         
+         function off() {
+             document.documentElement.style.setProperty("--bgcolor", "white")
+             document.documentElement.style.setProperty("--whiteborder", "black")
+             document.documentElement.style.setProperty("--txtcolor", "black")
+             document.documentElement.style.setProperty("--linkcolor", "black")
+             document.documentElement.style.setProperty("--btncolor1", "black")
+             document.documentElement.style.setProperty("--btncolor2", "white")
+             document.getElementById("theme-btn").innerText = "Dark Mode";
+             localStorage.setItem("local", "off");
+         }
+         
+         function on() {
+             document.documentElement.style.setProperty("--bgcolor", "#030303")
+             document.documentElement.style.setProperty("--whiteborder", "#FAF6F6")
+             document.documentElement.style.setProperty("--txtcolor", "#FAF6F6")
+             document.documentElement.style.setProperty("--linkcolor", "#FAF6F6")
+             document.documentElement.style.setProperty("--btncolor1", "#FAF6F6")
+             document.documentElement.style.setProperty("--btncolor2", "#030303")
+             document.getElementById("theme-btn").innerText = "Light Mode";
+             localStorage.setItem("local", "on");
+         }
+         
+         if (local == "on") {
+             on();
+         }
+         
+         button.addEventListener("click", () => {
+             local = localStorage.getItem("local"); 
+             if (local !== "on") {
+                 on();
+             } else {
+                 off();
+             }
+         });
+         
+         // "I don't know what I did, but it finally works hahahaha!!"
+         
+     </script>    
     </body>
 </html>
