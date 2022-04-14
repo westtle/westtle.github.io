@@ -1,42 +1,64 @@
 <!doctype html>
 <html>
-    
+   
     <!-- The <head> -->
-    
+   
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="hello.">
         <meta name="author" content="westtle">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+       
         <title>Coming Soon... Maybe.</title>
-        
+       
         <style>
             .main-cont {
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
                 height: 500px;
             }
-            
+           
             .items {
+                
                 max-width: 800px;
                 border: solid 1px;
             }
+           
+            .link {
+                max-width: 800px;
+                text-align: center;
+                border: solid 1px;
+                margin-top: 10px;
+                padding: 5px 70px;
+            }
+           
+            a     {
+                text-decoration: none;
+            }
         </style>
     </head>
-    
+   
     <!-- The <body> -->
-    
+   
     <body>
-     <div class="main-cont">    
+     <div class="main-cont">   
        <div class="items">
           <blockquote>
               <h3>coming soon maybe idk im just trying github...</h3>
               -westtle
           </blockquote>
        </div>
-     </div>    
+         
+       <div class="link">
+          <a href="https://www.youtube.com/c/WesttlE" target="_blank">youtube</a> |
+          <a href="https://twitter.com/WesttleCraft" target="_blank">twitter</a> <br>
+          <a href="https://westtle.itch.io/" target="_blank">itch.io</a> |
+          <a href="https://steamcommunity.com/id/WesttlE" target="_blank">steam</a> |
+          <a href="https://gamejolt.com/@WesttlE" target="_blank">gamejolt</a>
+       </div>
+     </div>   
     </body>
 </html>
