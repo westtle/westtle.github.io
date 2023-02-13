@@ -25,8 +25,8 @@ body {
 	display: flex;
 	flex-direction: column;
     border: 0.063rem solid;
-    height: 98.6vh;
-    margin: 0.7vh;
+    height: 98.5vh;
+    margin: 0.75vh;
 	font-size: var(--font-size-main);
 	text-align: center;
 }
