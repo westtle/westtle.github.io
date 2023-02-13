@@ -10,8 +10,16 @@
 /* Quote */
 
 .__quote {
+	width: 100%;
+	max-width: 15.938rem;
 	border: var(--border-main);
 	text-align: left;
+}
+
+.__quote blockquote {
+	width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .__quote h3 {
