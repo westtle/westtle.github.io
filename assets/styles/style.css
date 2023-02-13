@@ -20,8 +20,8 @@ body {
 	display: flex;
 	flex-direction: column;
     border: var(--border-main);
-    height: 98.5vh;
-    margin: 0.75vh;
+    height: 98.4vh;
+    margin: 0.8vh;
 	font-size: var(--font-size-main);
 	text-align: center;
 }
