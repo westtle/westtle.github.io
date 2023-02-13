@@ -13,13 +13,6 @@ const list = [
 		repository: null,
 		category: "none"
 	},
-	// {
-	// 	title: "Reading List",
-	// 	description: "Submission for https://www.dicoding.com/academies/315",
-	// 	directory: "https://westtle.github.io/reading-list/",
-	// 	repository: "https://github.com/westtle/reading-list",
-	// 	category: "Tools"
-	// },
 	{
 		title: "Simple Note",
 		description: "A very simple notepad to use.",
