@@ -63,6 +63,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 2.5rem;
-		grid-row-gap: 1.563rem;
+		grid-row-gap: 0.625rem;
 	}
 }
