@@ -1,7 +1,7 @@
 const list = [
 	{
 		title: "Home",
-		description: "The Homepage.",
+		description: "The homepage.",
 		directory: "/index.html",
 		repository: null,
 		category: "none"
@@ -96,5 +96,19 @@ const list = [
 		directory: "https://westtle.github.io/hangman/",
 		repository: "https://github.com/westtle/hangman",
 		category: "Games"
+	},
+	{
+		title: "Random Cat",
+		description: "Submission for https://www.dicoding.com/academies/123",
+		directory: "https://westtle.github.io/random-cat/",
+		repository: "https://github.com/westtle/random-cat",
+		category: "Other"
+	},
+	{
+		title: "Reading List",
+		description: "Submission for https://www.dicoding.com/academies/315",
+		directory: "https://westtle.github.io/reading-list/",
+		repository: "https://github.com/westtle/reading-list",
+		category: "Other"
 	},
 ];

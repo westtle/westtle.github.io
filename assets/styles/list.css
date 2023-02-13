@@ -14,7 +14,8 @@
 
 .__main-list,
 .__tools-list,
-.__games-list {
+.__games-list,
+.__other-list {
 	margin-bottom: 1.5rem;
 }
 
