@@ -1,0 +1,52 @@
+:root {
+	--font-size-main: 0.906rem; /* 14.5px */
+	--font-size-second: 0.688rem; /* 11px */
+
+	--color-main: rgba(0, 0, 0, 0.8);
+	--border-main: rgba(0, 0, 0, 0.6);
+	--border-shorthand: 0.063rem solid rgba(0, 0, 0, 0.6);
+
+	/* Button */
+	--button-hover-backround: rgba(0, 0, 0, 0.8);
+	--button-hover-color: rgba(255, 255, 255, 0.9);
+	--font-size-button: 0.769rem; /* 12.3px */
+
+	--unit-one: 0.438rem; /* 7px */
+	--unit-two: 0.75rem; /* 12px */
+}
+
+*, *::before, *::after {
+	color: #FAF6F6;
+	background-color: #030303;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+    border: 0.063rem solid;
+    height: 98.6vh;
+    margin: 0.7vh;
+	font-size: var(--font-size-main);
+	text-align: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0.5rem;
+    text-align: justify;
+    overflow: auto;
+}
+
+#home {
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    border-top: 0.063rem solid;    
+    padding: 16px 0;
+}
