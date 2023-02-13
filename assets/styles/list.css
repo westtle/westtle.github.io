@@ -66,21 +66,3 @@
 		grid-row-gap: 1.563rem;
 	}
 }
-
-@media (min-width: 58.75rem) { /* 940px */
-	.__main-list,
-	.__tools-list,
-	.__games-list {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	._item {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.repo-link__::before {
-		margin-left: 0;
-	}
-}
