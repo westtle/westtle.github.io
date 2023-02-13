@@ -7,9 +7,9 @@
 }
 
 .__quote {
-    max-width: 460px;
-    border: 1px solid;
-    padding: 12px;
+    max-width: 28.75rem;
+    border: 0.063rem solid;
+    padding: var(--unit-two);
     text-align: start;
 }
 

@@ -1,21 +1,21 @@
 #list {
 	width: 85%;
-	max-width: 800px;
+	max-width: 50rem;
 	margin: 4.5vh auto;
 	text-align: left;
 }
 
 #list h3 {
-	border-top: 2px solid;
+	border-top: 0.125rem solid;
 	margin: 0;
-	padding-top: 4px;
+	padding-top: 0.25rem;
 	text-align: center;
 }
 
 .__main-list,
 .__tools-list,
 .__games-list {
-	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
 }
 
 ._item {
@@ -56,18 +56,18 @@
 	}
 }
 
-@media (min-width: 680px) {
+@media (min-width: 42.5rem) { /* 680px */
 	.__main-list,
 	.__tools-list,
 	.__games-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 40px;
-		grid-row-gap: 25px;
+		grid-column-gap: 2.5rem;
+		grid-row-gap: 1.563rem;
 	}
 }
 
-@media (min-width: 940px) {
+@media (min-width: 58.75rem) { /* 940px */
 	.__main-list,
 	.__tools-list,
 	.__games-list {

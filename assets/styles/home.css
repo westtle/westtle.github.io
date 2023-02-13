@@ -10,7 +10,7 @@
 /* Quote */
 
 .__quote {
-	border: 1px solid;
+	border: 0.063rem solid;
 	text-align: left;
 }
 
@@ -21,9 +21,9 @@
 /* Social Media */
 
 .__social-media {
-	border: 1px solid;
+	border: 0.063rem solid;
 	width: 100%;
-	max-width: 300px;
-	margin-top: 10px;
-	padding: 7px 12px;
+	max-width: 18.75rem;
+	margin-top: 0.625rem;
+	padding: var(--unit-one) var(--unit-two);
 }
