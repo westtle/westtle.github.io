@@ -1,20 +1,3 @@
-const list = [
-	{
-		title: "Home",
-		description: "The Homepage.",
-		directory: "/index.html",
-		repository: null,
-		category: "none"
-	},
-	{
-		title: "Simple Note",
-		description: "A very simple notepad to use.",
-		directory: "https://westtle.github.io/simple-note/",
-		repository: "https://github.com/westtle/simple-note",
-		category: "Tools"
-	}
-];
-
 // HTML.
 const mainListContainer = document.querySelector(".__main-list");
 const toolsListContainer = document.querySelector(".__tools-list");
