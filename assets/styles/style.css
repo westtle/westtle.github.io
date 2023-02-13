@@ -43,3 +43,13 @@ footer {
     border-top: 0.063rem solid;    
     padding: 1rem 0;
 }
+
+/* Media Query */
+
+/* Font Size */
+@media (max-width: 30rem) { /* 480px */
+	html {
+		font-size: calc(1rem - 10%);
+	}
+}
+/* -------- */
