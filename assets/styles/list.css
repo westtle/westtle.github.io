@@ -58,12 +58,10 @@
 }
 
 @media (min-width: 42.5rem) { /* 680px */
-	.__main-list,
 	.__tools-list,
 	.__games-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 3rem;
-		grid-row-gap: 0.625rem;
 	}
 }
