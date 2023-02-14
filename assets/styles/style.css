@@ -2,7 +2,7 @@
 	--font-size-main: 0.906rem; /* 14.5px */
 	--font-size-second: 0.688rem; /* 11px */
 
-	--foreground: rgba(255, 255, 255, 0.95);
+	--foreground: rgba(255, 255, 255, 0.9);
 	--background: #030303;
 	--border-main: 0.063rem solid var(--foreground);
 
