@@ -21,6 +21,14 @@
 	margin-block-end: 1.5rem;
 }
 
+.__main-list ._item:first-child h3 {
+	margin-block-start: var(--seven);
+}
+
+.__challenge-list ._item:last-child .description__ {
+	margin-block-end: var(--seven);
+}
+
 ._item {
 	display: flex;
 	align-items: center;
