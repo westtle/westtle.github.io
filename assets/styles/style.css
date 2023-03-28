@@ -37,7 +37,7 @@ main {
 /* Footer */
 
 footer {
-    border-top: var(--border-shorthand);
+    border-block-start: var(--border-shorthand);
     padding: 1rem 0;
 }
 

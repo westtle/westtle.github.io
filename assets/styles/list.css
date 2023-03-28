@@ -2,13 +2,13 @@
 	width: 85%;
 	max-width: 50rem;
 	margin: 4.5vh auto;
-	text-align: left;
+	text-align: start;
 }
 
 #list h3 {
-	border-top: 0.125rem solid;
+	border-block-start: 0.125rem solid;
 	margin: 0;
-	padding-top: 0.25rem;
+	padding-block-start: 0.25rem;
 	text-align: center;
 }
 
@@ -16,7 +16,7 @@
 .__tools-list,
 .__games-list,
 .__other-list {
-	margin-bottom: 1.5rem;
+	margin-block-end: 1.5rem;
 }
 
 ._item {
@@ -29,7 +29,7 @@
 }
 
 .title-link__ h2 {
-	margin-bottom: 0;
+	margin-block-end: 0;
 }
 
 .repo-link__::before {
@@ -39,7 +39,7 @@
     background-size: 1.313rem;
 	width: 1.313rem;
 	height: 1.313rem;
-	margin-left: var(--twelve);
+	margin-inline-start: var(--twelve);
 	opacity: 0.8;
 	cursor: pointer;
     filter: invert(100%);

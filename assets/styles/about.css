@@ -15,8 +15,7 @@
 
 blockquote {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
     font-style: italic;
 }
 

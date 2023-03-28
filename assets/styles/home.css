@@ -13,13 +13,12 @@
 	width: 100%;
 	max-width: 15.938rem;
 	border: var(--border-shorthand);
-	text-align: left;
+	text-align: start;
 }
 
 .__quote blockquote {
 	width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
 }
 
 .__quote h3 {
@@ -32,6 +31,6 @@
 	border: var(--border-shorthand);
 	width: 100%;
 	max-width: 18.75rem;
-	margin-top: 0.625rem;
+	margin-block-start: 0.625rem;
 	padding: var(--seven) var(--twelve);
 }
