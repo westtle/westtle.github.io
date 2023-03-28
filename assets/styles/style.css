@@ -18,26 +18,26 @@
 }
 
 body {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 	background-color: var(--background);
-    border: var(--border-shorthand);
+	border: var(--border-shorthand);
     height: 98.4vh;
     margin: 0.8vh;
-	font-size: var(--font-size-primary);
-	text-align: center;
+    font-size: var(--font-size-primary);
+    text-align: center;
 }
 
 main {
-	height: 100%;
+	flex-grow: 1;
 	padding: var(--twelve);
-    overflow: auto;
+	overflow: auto;
 }
 
 /* Footer */
 
 footer {
-    border-top: var(--border-shorthand);    
+    border-top: var(--border-shorthand);
     padding: 1rem 0;
 }
 
