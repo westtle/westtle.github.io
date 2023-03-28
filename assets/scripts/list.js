@@ -18,23 +18,13 @@ function generateList() {
 };
 
 function listTemplateCreate(listItem) {
-	if (listItem.repository !== null) {
-		return `<div class="_item">
-                    <div class="info_">
-                        <a class="title-link__" href="${listItem.directory}" target="_blank"><h3>${listItem.title}</h3></a>
-                        <p class="description__">${listItem.description}</p>
-                    </div>
-                    <a class="_repo-link" href="${listItem.repository}" target="_blank" aria-label="Repository link for ${listItem.title}"></a>
-                </div>`;
-	} else {
-		return `<div class="_item">
-		            <div class="info_">
-	                    <a class="title-link__" href="${listItem.directory}"><h3>${listItem.title}</h3></a>
-	                    <p class="description__">${listItem.description}</p>
-	                </div>
-	            </div>`;
-	};
-
+	return `<div class="_item">
+	            <div class="info_">
+	                <a class="title-link__" href="${listItem.directory}" ${listItem.repository ? `target="_blank"` : ''}><h3>${listItem.title}</h3></a>
+	                <p class="description__">${listItem.description}</p>
+	            </div>
+	            ${listItem.repository ? `<a class="_repo-link" href="${listItem.repository}" target="_blank" aria-label="Repository link for ${listItem.title}"></a>` : ''}
+	        </div>`;
 };
 
 document.addEventListener("DOMContentLoaded", () => {
