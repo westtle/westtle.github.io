@@ -18,14 +18,12 @@ function generateList() {
 function listTemplateCreate(listItem) {
 	if (listItem.repository !== null) {
 		return `<div class="_item">
-		            <div class="info_">
-	                    <a class="title-link__" href="${listItem.directory}" target="_blank"><h2>${listItem.title}</h2></a>
-	                    <p class="description__">${listItem.description}</p>
-	                </div>
-	                <div class="repository_">
-	                    <a class="repo-link__" href="${listItem.repository}" target="_blank"></a>
-	                </div>
-	            </div>`;
+                    <div class="info_">
+                        <a class="title-link__" href="${listItem.directory}" target="_blank"><h2>${listItem.title}</h2></a>
+                        <p class="description__">${listItem.description}</p>
+                    </div>
+                    <a class="_repo-link" href="${listItem.repository}" target="_blank"></a>
+                </div>`;
 	} else {
 		return `<div class="_item">
 		            <div class="info_">
