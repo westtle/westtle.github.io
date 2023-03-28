@@ -8,8 +8,8 @@
 
 .__quote {
     max-width: 28.75rem;
-    border: var(--border-main);
-    padding: var(--unit-two);
+    border: var(--border-shorthand);
+    padding: var(--twelve);
     text-align: start;
 }
 

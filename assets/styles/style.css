@@ -1,13 +1,15 @@
 :root {
-	--font-size-main: 0.906rem; /* 14.5px */
+	--font-size-primary: 0.906rem; /* 14.5px */
 	--font-size-second: 0.688rem; /* 11px */
 
 	--foreground: rgba(255, 255, 255, 0.9);
-	--background: #030303;
-	--border-main: 0.063rem solid var(--foreground);
+	--background: #040303;
 
-	--unit-one: 0.438rem; /* 7px */
-	--unit-two: 0.75rem; /* 12px */
+	--border-color: rgba(255, 255, 255, 0.85);
+	--border-shorthand: 0.063rem solid var(--border-color);
+
+	--seven: 0.438rem; /* 7px */
+	--twelve: 0.75rem; /* 12px */
 }
 
 *, *::before, *::after {
@@ -19,23 +21,23 @@
 body {
 	display: flex;
 	flex-direction: column;
-    border: var(--border-main);
+    border: var(--border-shorthand);
     height: 98.4vh;
     margin: 0.8vh;
-	font-size: var(--font-size-main);
+	font-size: var(--font-size-primary);
 	text-align: center;
 }
 
 main {
 	height: 100%;
-	padding: var(--unit-two);
+	padding: var(--twelve);
     overflow: auto;
 }
 
 /* Footer */
 
 footer {
-    border-top: var(--border-main);    
+    border-top: var(--border-shorthand);    
     padding: 1rem 0;
 }
 

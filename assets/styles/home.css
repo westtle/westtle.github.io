@@ -12,7 +12,7 @@
 .__quote {
 	width: 100%;
 	max-width: 15.938rem;
-	border: var(--border-main);
+	border: var(--border-shorthand);
 	text-align: left;
 }
 
@@ -29,9 +29,9 @@
 /* Social Media */
 
 .__social-media {
-	border: var(--border-main);
+	border: var(--border-shorthand);
 	width: 100%;
 	max-width: 18.75rem;
 	margin-top: 0.625rem;
-	padding: var(--unit-one) var(--unit-two);
+	padding: var(--seven) var(--twelve);
 }

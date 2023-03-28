@@ -39,7 +39,7 @@
     background-size: 1.313rem;
 	width: 1.313rem;
 	height: 1.313rem;
-	margin-left: var(--unit-two);
+	margin-left: var(--twelve);
 	opacity: 0.8;
 	cursor: pointer;
     filter: invert(100%);
