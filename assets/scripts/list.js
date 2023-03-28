@@ -3,7 +3,7 @@ const mainListContainer = document.querySelector(".__main-list");
 const toolsListContainer = document.querySelector(".__tools-list");
 const gamesListContainer = document.querySelector(".__games-list");
 const otherListContainer = document.querySelector(".__other-list");
-const frontendMentorContainer = document.querySelector(".__frontend-mentor-list");
+const challengeSubmissionContainer = document.querySelector(".__challenge-list");
 
 function generateList() {
 	list.forEach((item, index) => {
@@ -13,7 +13,7 @@ function generateList() {
 		if (item.category == "Tools") toolsListContainer.innerHTML += listTemplate;
 		if (item.category == "Games") gamesListContainer.innerHTML += listTemplate;
 		if (item.category == "Other") otherListContainer.innerHTML += listTemplate;
-		if (item.category == "Frontend Mentor Challenges") frontendMentorContainer.innerHTML += listTemplate;
+		if (item.category == "Challenge Submission") challengeSubmissionContainer.innerHTML += listTemplate;
 	});
 };
 

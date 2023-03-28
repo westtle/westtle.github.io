@@ -105,20 +105,6 @@ const list = [
 		category: "Tools"
 	},
 	{
-		title: "Random Cat",
-		description: "Submission for https://www.dicoding.com/academies/123",
-		directory: "https://westtle.github.io/random-cat/",
-		repository: "https://github.com/westtle/random-cat",
-		category: "Other"
-	},
-	{
-		title: "Reading List",
-		description: "Submission for https://www.dicoding.com/academies/315",
-		directory: "https://westtle.github.io/reading-list/",
-		repository: "https://github.com/westtle/reading-list",
-		category: "Other"
-	},
-	{
 		title: "Goodbye World!",
 		description: "Goodbye World!",
 		directory: "https://westtle.github.io/goodbye-world/",
@@ -161,10 +147,24 @@ const list = [
 		category: "Other"
 	},
 	{
+		title: "Random Cat",
+		description: "Submission for https://www.dicoding.com/academies/123",
+		directory: "https://westtle.github.io/random-cat/",
+		repository: "https://github.com/westtle/random-cat",
+		category: "Challenge Submission"
+	},
+	{
+		title: "Reading List",
+		description: "Submission for https://www.dicoding.com/academies/315",
+		directory: "https://westtle.github.io/reading-list/",
+		repository: "https://github.com/westtle/reading-list",
+		category: "Challenge Submission"
+	},
+	{
 		title: "QR Code Component",
 		description: "Frontend Mentor #1 - QR code component.",
 		directory: "https://westtle.github.io/qr-code-component/",
 		repository: "https://github.com/westtle/qr-code-component",
-		category: "Frontend Mentor Challenges"
+		category: "Challenge Submission"
 	},
 ];

@@ -17,7 +17,7 @@
 .__tools-list,
 .__games-list,
 .__other-list,
-.__frontend-mentor-list {
+.__challenge-list {
 	margin-block-end: 1.5rem;
 }
 
@@ -73,7 +73,8 @@
 
 @media (min-width: 42.5rem) { /* 680px */
 	.__tools-list,
-	.__games-list {
+	.__games-list,
+	.__other-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 3rem;
