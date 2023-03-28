@@ -17,6 +17,16 @@
 	box-sizing: border-box;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -39,16 +49,6 @@ main {
 footer {
     border-block-start: var(--border-shorthand);
     padding: 1rem 0;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-ul li {
-	display: inline-block;
 }
 
 /* Media Query */
