@@ -165,6 +165,6 @@ const list = [
 		description: "Frontend Mentor #1 - QR code component.",
 		directory: "https://westtle.github.io/qr-code-component/",
 		repository: "https://github.com/westtle/qr-code-component",
-		category: "Other"
+		category: "Frontend Mentor Challenges"
 	},
 ];

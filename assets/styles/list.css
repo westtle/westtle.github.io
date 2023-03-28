@@ -16,7 +16,8 @@
 .__main-list,
 .__tools-list,
 .__games-list,
-.__other-list {
+.__other-list,
+.__frontend-mentor-list {
 	margin-block-end: 1.5rem;
 }
 
