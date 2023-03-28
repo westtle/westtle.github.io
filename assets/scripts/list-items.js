@@ -156,7 +156,7 @@ const list = [
 	{
 		title: "Tribute Page",
 		description: "Tribute to...",
-		directory: "https://github.com/westtle/tribute-page",
+		directory: "https://westtle.github.io/tribute-page/",
 		repository: "https://github.com/westtle/tribute-page",
 		category: "Other"
 	},
