@@ -14,6 +14,41 @@ const list = [
 		category: "none"
 	},
 	{
+		title: "Rock Paper Scissors",
+		description: "Play some rock paper scissors!",
+		directory: "https://westtle.github.io/rock-paper-scissors/",
+		repository: "https://github.com/westtle/rock-paper-scissors",
+		category: "Games"
+	},
+	{
+		title: "Tic Tac Toe",
+		description: "Play some tic tac toe!",
+		directory: "https://westtle.github.io/tic-tac-toe/",
+		repository: "https://github.com/westtle/tic-tac-toe",
+		category: "Games"
+	},
+	{
+		title: "2048",
+		description: "Play some 2048!",
+		directory: "https://westtle.github.io/2048/",
+		repository: "https://github.com/westtle/2048",
+		category: "Games"
+	},
+	{
+		title: "Minesweeper",
+		description: "Play some classic Minesweeper!",
+		directory: "https://westtle.github.io/minesweeper/",
+		repository: "https://github.com/westtle/minesweeper",
+		category: "Games"
+	},
+	{
+		title: "Hangman",
+		description: "Guess the letters.",
+		directory: "https://westtle.github.io/hangman/",
+		repository: "https://github.com/westtle/hangman",
+		category: "Games"
+	},
+	{
 		title: "Simple Note",
 		description: "A very simple notepad to use.",
 		directory: "https://westtle.github.io/simple-note/",
@@ -61,41 +96,6 @@ const list = [
 		directory: "https://westtle.github.io/calculator/",
 		repository: "https://github.com/westtle/calculator",
 		category: "Tools"
-	},
-	{
-		title: "Rock Paper Scissors",
-		description: "Play some rock paper scissors!",
-		directory: "https://westtle.github.io/rock-paper-scissors/",
-		repository: "https://github.com/westtle/rock-paper-scissors",
-		category: "Games"
-	},
-	{
-		title: "Tic Tac Toe",
-		description: "Play some tic tac toe!",
-		directory: "https://westtle.github.io/tic-tac-toe/",
-		repository: "https://github.com/westtle/tic-tac-toe",
-		category: "Games"
-	},
-	{
-		title: "2048",
-		description: "Play some 2048!",
-		directory: "https://westtle.github.io/2048/",
-		repository: "https://github.com/westtle/2048",
-		category: "Games"
-	},
-	{
-		title: "Minesweeper",
-		description: "Play some classic Minesweeper!",
-		directory: "https://westtle.github.io/minesweeper/",
-		repository: "https://github.com/westtle/minesweeper",
-		category: "Games"
-	},
-	{
-		title: "Hangman",
-		description: "Guess the letters.",
-		directory: "https://westtle.github.io/hangman/",
-		repository: "https://github.com/westtle/hangman",
-		category: "Games"
 	},
 	{
 		title: "Random Cat",
