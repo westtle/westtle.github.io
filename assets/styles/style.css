@@ -14,13 +14,13 @@
 
 *, *::before, *::after {
 	color: var(--foreground);
-	background-color: var(--background);
 	box-sizing: border-box;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
+	background-color: var(--background);
     border: var(--border-shorthand);
     height: 98.4vh;
     margin: 0.8vh;
