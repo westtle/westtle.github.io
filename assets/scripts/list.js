@@ -22,7 +22,7 @@ function listTemplateCreate(listItem) {
                         <a class="title-link__" href="${listItem.directory}" target="_blank"><h2>${listItem.title}</h2></a>
                         <p class="description__">${listItem.description}</p>
                     </div>
-                    <a class="_repo-link" href="${listItem.repository}" target="_blank"></a>
+                    <a class="_repo-link" href="${listItem.repository}" target="_blank" aria-label="Repository link for ${listItem.title}"></a>
                 </div>`;
 	} else {
 		return `<div class="_item">
