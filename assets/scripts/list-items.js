@@ -98,6 +98,13 @@ const list = [
 		category: "Tools"
 	},
 	{
+		title: "Notepad",
+		description: "A notepad you can use...",
+		directory: "https://westtle.github.io/notepad/",
+		repository: "https://github.com/westtle/notepad",
+		category: "Tools"
+	},
+	{
 		title: "Random Cat",
 		description: "Submission for https://www.dicoding.com/academies/123",
 		directory: "https://westtle.github.io/random-cat/",
@@ -109,6 +116,55 @@ const list = [
 		description: "Submission for https://www.dicoding.com/academies/315",
 		directory: "https://westtle.github.io/reading-list/",
 		repository: "https://github.com/westtle/reading-list",
+		category: "Other"
+	},
+	{
+		title: "Goodbye World!",
+		description: "Goodbye World!",
+		directory: "https://westtle.github.io/goodbye-world/",
+		repository: "https://github.com/westtle/goodbye-world",
+		category: "Other"
+	},
+	{
+		title: "Roomba Cat!",
+		description: "cat go brrr.",
+		directory: "https://westtle.github.io/roomba-cat/",
+		repository: "https://github.com/westtle/roomba-cat",
+		category: "Other"
+	},
+	{
+		title: "Sliding Images",
+		description: "Just a sliding images.",
+		directory: "https://westtle.github.io/sliding-images/",
+		repository: "https://github.com/westtle/sliding-images",
+		category: "Other"
+	},
+	{
+		title: "Hover Card",
+		description: "A simple card with hover effect.",
+		directory: "https://westtle.github.io/hover-card/",
+		repository: "https://github.com/westtle/hover-card",
+		category: "Other"
+	},
+	{
+		title: "Rain",
+		description: "Relaxing rain.",
+		directory: "https://westtle.github.io/rain/",
+		repository: "https://github.com/westtle/rain",
+		category: "Other"
+	},
+	{
+		title: "Tribute Page",
+		description: "Tribute to...",
+		directory: "https://github.com/westtle/tribute-page",
+		repository: "https://github.com/westtle/tribute-page",
+		category: "Other"
+	},
+	{
+		title: "QR Code Component",
+		description: "Frontend Mentor #1 - QR code component.",
+		directory: "https://westtle.github.io/qr-code-component/",
+		repository: "https://github.com/westtle/qr-code-component",
 		category: "Other"
 	},
 ];
