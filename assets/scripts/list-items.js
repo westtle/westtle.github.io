@@ -167,4 +167,11 @@ const list = [
 		repository: "https://github.com/westtle/qr-code-component",
 		category: "Challenge Submission"
 	},
+	{
+		title: "Results Summary Component",
+		description: "Frontend Mentor #2 - Results summary component.",
+		directory: "https://westtle.github.io/results-summary-component/",
+		repository: "https://github.com/westtle/results-summary-component",
+		category: "Challenge Submission"
+	},
 ];
