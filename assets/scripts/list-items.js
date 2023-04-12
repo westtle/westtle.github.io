@@ -147,6 +147,13 @@ const list = [
 		category: "Other"
 	},
 	{
+		title: "Random Quote",
+		description: "Get random quote.",
+		directory: "https://westtle.github.io/random-quote/",
+		repository: "https://github.com/westtle/random-quote",
+		category: "Other"
+	},
+	{
 		title: "Random Cat",
 		description: "Submission for https://www.dicoding.com/academies/123",
 		directory: "https://westtle.github.io/random-cat/",
