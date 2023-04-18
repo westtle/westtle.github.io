@@ -7,8 +7,8 @@ main {
 	transform: translateY(-200%);
 
 	position: absolute;
-	top: 0;
-	left: 0;
+	inset-block-start: 0;
+	inset-inline-start: 0;
 }
 
 .__use-category-nav:focus {
@@ -84,8 +84,8 @@ main {
     opacity: 0.8;
 
     position: absolute;
-    top: 50%;
-    left: 50%;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -95,7 +95,7 @@ main {
 	text-align: center;
 
 	position: sticky;
-	bottom: -0.775rem;
+	inset-block-end: -0.775rem;
 	z-index: 1;
 }
 
