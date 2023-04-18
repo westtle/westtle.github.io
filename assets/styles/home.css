@@ -21,7 +21,8 @@
     margin-inline: auto;
 }
 
-.__quote h3 {
+.__quote h1 {
+	font-size: 1.17em;
 	font-style: italic;
 }
 
