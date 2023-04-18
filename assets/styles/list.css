@@ -1,3 +1,20 @@
+main {
+	position: relative;
+}
+
+.__use-category-nav {
+	padding: var(--seven);
+	transform: translateY(-200%);
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.__use-category-nav:focus {
+  transform: translateY(0%);
+}
+
 #list {
 	width: 85%;
 	max-width: 50rem;
