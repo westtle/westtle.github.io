@@ -1,7 +1,9 @@
 #about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.625rem;
     min-height: calc(100% - 9vh);
     margin: 4.5vh auto;
 }
@@ -11,6 +13,10 @@
     border: var(--border-shorthand);
     padding: var(--twelve);
     text-align: start;
+}
+
+.__quote a {
+    word-break: break-word;
 }
 
 blockquote {
