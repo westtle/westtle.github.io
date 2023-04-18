@@ -8,9 +8,11 @@
     margin: 4.5vh auto;
 }
 
+/* Quote */
+
 .__quote {
-    max-width: 28.75rem;
     border: var(--border-shorthand);
+    max-width: 28.75rem;
     padding: var(--twelve);
     text-align: start;
 }

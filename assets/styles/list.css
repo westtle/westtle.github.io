@@ -1,20 +1,3 @@
-main {
-	position: relative;
-}
-
-.__use-category-nav {
-	padding: var(--seven);
-	transform: translateY(-200%);
-
-	position: absolute;
-	inset-block-start: 0;
-	inset-inline-start: 0;
-}
-
-.__use-category-nav:focus {
-  transform: translateY(0%);
-}
-
 #list {
 	width: 85%;
 	max-width: 50rem;
@@ -45,6 +28,8 @@ main {
 .__challenge-list ._item:last-child .description__ {
 	margin-block-end: var(--seven);
 }
+
+/* List Item */
 
 ._item {
 	display: flex;
@@ -87,6 +72,25 @@ main {
     inset-block-start: 50%;
     inset-inline-start: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Category Navigation */
+
+main {
+	position: relative;
+}
+
+.__use-category-nav { /* Skip to nav. */
+	padding: var(--seven);
+	transform: translateY(-200%);
+
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline-start: 0;
+}
+
+.__use-category-nav:focus {
+  transform: translateY(0%);
 }
 
 .__list-navigation {

@@ -10,9 +10,9 @@
 /* Quote */
 
 .__quote {
+	border: var(--border-shorthand);
 	width: 100%;
 	max-width: 15.938rem;
-	border: var(--border-shorthand);
 	text-align: start;
 }
 
