@@ -181,4 +181,11 @@ const list = [
 		repository: "https://github.com/westtle/results-summary-component",
 		category: "Challenge Submission"
 	},
+	{
+		title: "Product Preview Card Component",
+		description: "Frontend Mentor #3 - Product preview card component.",
+		directory: "https://westtle.github.io/product-preview-card-component/",
+		repository: "https://github.com/westtle/product-preview-card-component",
+		category: "Challenge Submission"
+	},
 ];
