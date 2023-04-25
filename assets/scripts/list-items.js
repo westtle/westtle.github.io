@@ -77,7 +77,7 @@ const list = [
 		category: "Tools"
 	},
 	{
-		title: "Date And Time",
+		title: "Date & Time",
 		description: "A simple date & time with multiple timezones.",
 		directory: "https://westtle.github.io/date-and-time/",
 		repository: "https://github.com/westtle/date-and-time",
