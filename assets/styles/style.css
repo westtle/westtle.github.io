@@ -28,17 +28,16 @@ ul li {
 }
 
 .sr-only__:not(:focus):not(:active) {
-  border: 0;
-  margin: -0.0625rem;
-  padding: 0;
-  height: 0.0625rem;
-  width: 0.0625rem;
-  overflow: hidden;
-  white-space: nowrap; 
-  clip: rect(0, 0, 0, 0); 
-  clip-path: inset(50%);
-  position: absolute;
-
+	border: 0;
+	margin: -0.0625rem;
+	padding: 0;
+	height: 0.0625rem;
+	width: 0.0625rem;
+	overflow: hidden;
+	white-space: nowrap; 
+	clip: rect(0, 0, 0, 0); 
+	clip-path: inset(50%);
+	position: absolute;
 }
 
 body {

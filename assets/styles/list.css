@@ -90,7 +90,7 @@ main {
 }
 
 .__use-category-nav:focus {
-  transform: translateY(0%);
+	transform: translateY(0%);
 }
 
 .__list-navigation {
