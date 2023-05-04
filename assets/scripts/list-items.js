@@ -168,6 +168,13 @@ const list = [
 		category: "Other"
 	},
 	{
+		title: "Simple Blog Template",
+		description: "A simple template for a blog site.",
+		directory: "https://westtle.github.io/simple-blog-template/",
+		repository: "https://github.com/westtle/simple-blog-template",
+		category: "Other"
+	},
+	{
 		title: "Random Cat",
 		description: "Submission for https://www.dicoding.com/academies/123",
 		directory: "https://westtle.github.io/random-cat/",
