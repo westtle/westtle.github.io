@@ -27,6 +27,4 @@ function listTemplateCreate(listItem) {
 	        </div>`;
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-	generateList();
-});
+document.addEventListener("DOMContentLoaded", () => generateList());
