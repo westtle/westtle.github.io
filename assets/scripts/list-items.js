@@ -112,6 +112,13 @@ const list = [
 		category: "Tools"
 	},
 	{
+		title: "Calendar",
+		description: "Simple calendar with changeable time.",
+		directory: "https://westtle.github.io/calendar/",
+		repository: "https://github.com/westtle/calendar",
+		category: "Tools"
+	},
+	{
 		title: "Goodbye World!",
 		description: "Goodbye World!",
 		directory: "https://westtle.github.io/goodbye-world/",
