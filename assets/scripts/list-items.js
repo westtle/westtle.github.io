@@ -223,4 +223,11 @@ const list = [
 		repository: "https://github.com/westtle/product-preview-card-component",
 		category: "Challenge Submission"
 	},
+	{
+		title: "Interactive Rating Component",
+		description: "Frontend Mentor #4 - Interactive rating component.",
+		directory: "https://westtle.github.io/interactive-rating-component/",
+		repository: "https://github.com/westtle/interactive-rating-component",
+		category: "Challenge Submission"
+	},
 ];
