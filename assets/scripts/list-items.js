@@ -230,4 +230,11 @@ const list = [
 		repository: "https://github.com/westtle/interactive-rating-component",
 		category: "Challenge Submission"
 	},
+	{
+		title: "NFT Preview Card Component",
+		description: "Frontend Mentor #5 - NFT preview card component.",
+		directory: "https://westtle.github.io/nft-preview-card-component/",
+		repository: "https://github.com/westtle/nft-preview-card-component",
+		category: "Challenge Submission"
+	},
 ];
