@@ -237,4 +237,11 @@ const list = [
 		repository: "https://github.com/westtle/nft-preview-card-component",
 		category: "Challenge Submission"
 	},
+	{
+		title: "Twitter Embed",
+		description: "codedesign.dev - Twitter tweet embed with light/dark mode.",
+		directory: "https://westtle.github.io/twitter-embed/",
+		repository: "https://github.com/westtle/twitter-embed",
+		category: "Challenge Submission"
+	},
 ];
