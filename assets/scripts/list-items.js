@@ -2,7 +2,7 @@ const list = [
 	{
 		title: "Home",
 		description: "The homepage.",
-		directory: "./index.html",
+		directory: "/",
 		repository: null,
 		category: "none"
 	},
