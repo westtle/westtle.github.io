@@ -51,27 +51,28 @@
 }
 
 ._repo-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-shrink: 0;
     width: 2.1875rem;
     aspect-ratio: 1/1;
 	margin-inline-start: var(--twelve);
-
-    position: relative;
+	opacity: 0.85;
 }
 
-._repo-link::before {
-    content: "";
-    background: url("../Images/github.svg") no-repeat center;
-    background-size: 100%;
-    width: 1.3125rem;
-    aspect-ratio: 1/1;
-    filter: invert(100%);
-    opacity: 0.8;
+._repo-link svg {
+	width: 100%;
+	max-width: 1.3125rem;
+}
 
-    position: absolute;
-    inset-block-start: 50%;
-    inset-inline-start: 50%;
-    transform: translate(-50%, -50%);
+@media (hover: hover) {
+	._repo-link { opacity: 0.65; }
+
+	._repo-link:hover,
+	._repo-link:focus-visible {
+		opacity: 0.85;
+	}
 }
 
 /* Category Navigation */
@@ -105,16 +106,6 @@ main {
 
 /* Media Query */
 
-@media (hover: hover) {
-	._repo-link::before {
-		opacity: 0.6;
-	}
-
-	._repo-link:hover::before,
-	._repo-link:focus-visible::before {
-		opacity: 0.8;
-	}
-}
 
 @media (min-width: 42.5rem) { /* 680px */
 	.__tools-list,
