@@ -6,7 +6,7 @@
 	--background: #040303;
 
 	--border-color: rgba(255, 255, 255, 0.85);
-	--border-shorthand: 0.063rem solid var(--border-color);
+	--border-primary: 0.063rem solid var(--border-color);
 
 	--seven: 0.438rem; /* 7px */
 	--twelve: 0.75rem; /* 12px */
@@ -48,7 +48,7 @@ body {
     flex-direction: column;
 	color: var(--foreground);
 	background-color: var(--background);
-	border: var(--border-shorthand);
+	border: var(--border-primary);
     height: 98.4vh;
     margin: 0.8vh;
     font-size: var(--font-size-primary);
@@ -64,7 +64,7 @@ main {
 /* Footer */
 
 footer {
-    border-block-start: var(--border-shorthand);
+    border-block-start: var(--border-primary);
     padding: 1rem 0;
 }
 

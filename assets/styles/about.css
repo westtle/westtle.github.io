@@ -11,7 +11,7 @@
 /* Quote */
 
 .__quote {
-    border: var(--border-shorthand);
+    border: var(--border-primary);
     max-width: 28.75rem;
     padding: var(--twelve);
     text-align: start;

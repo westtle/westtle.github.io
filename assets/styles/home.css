@@ -10,7 +10,7 @@
 /* Quote */
 
 .__quote {
-	border: var(--border-shorthand);
+	border: var(--border-primary);
 	width: 100%;
 	max-width: 15.938rem;
 	text-align: start;
@@ -29,7 +29,7 @@
 /* Social Media */
 
 .__social-media {
-	border: var(--border-shorthand);
+	border: var(--border-primary);
 	width: 100%;
 	max-width: 18.75rem;
 	margin-block-start: 0.625rem;
