@@ -238,6 +238,13 @@ const list = [
 		category: "Challenge Submission"
 	},
 	{
+		title: "Order Summary Component",
+		description: "Frontend Mentor #6 - Order summary component.",
+		directory: "https://westtle.github.io/order-summary-component/",
+		repository: "https://github.com/westtle/order-summary-component",
+		category: "Challenge Submission"
+	},
+	{
 		title: "Twitter Embed",
 		description: "codedesign.dev - Twitter tweet embed with light/dark mode.",
 		directory: "https://westtle.github.io/twitter-embed/",
