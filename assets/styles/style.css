@@ -1,25 +1,25 @@
 :root {
-	--font-size-primary: 0.906rem; /* 14.5px */
-	--font-size-secondary: 0.688rem; /* 11px */
+    --font-size-primary: 0.906rem; /* 14.5px */
+    --font-size-secondary: 0.688rem; /* 11px */
 
-	--foreground: rgba(255, 255, 255, 0.9);
-	--background: #040303;
+    --foreground: rgba(255, 255, 255, 0.9);
+    --background: #040303;
 
-	--border-color: rgba(255, 255, 255, 0.85);
-	--border-primary: 0.063rem solid var(--border-color);
+    --border-color: rgba(255, 255, 255, 0.85);
+    --border-primary: 0.063rem solid var(--border-color);
 
-	--seven: 0.438rem; /* 7px */
-	--twelve: 0.75rem; /* 12px */
+    --seven: 0.438rem; /* 7px */
+    --twelve: 0.75rem; /* 12px */
 }
 
 *, *::before, *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 ul li { display: inline-block; }
@@ -27,49 +27,49 @@ ul li { display: inline-block; }
 a { color: inherit; }
 
 .sr-only--:not(:focus):not(:active) {
-	border: 0;
-	margin: -0.0625rem;
-	padding: 0;
-	height: 0.0625rem;
-	width: 0.0625rem;
-	overflow: hidden;
-	white-space: nowrap; 
-	clip: rect(0, 0, 0, 0); 
-	clip-path: inset(50%);
-	position: absolute;
+    border: 0;
+    margin: -0.0625rem;
+    padding: 0;
+    height: 0.0625rem;
+    width: 0.0625rem;
+    overflow: hidden;
+    white-space: nowrap; 
+    clip: rect(0, 0, 0, 0); 
+    clip-path: inset(50%);
+    position: absolute;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	color: var(--foreground);
-	background-color: var(--background);
-	border: var(--border-primary);
-	height: 98.4vh;
-	margin: 0.8vh;
-	font-size: var(--font-size-primary);
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--foreground);
+    background-color: var(--background);
+    border: var(--border-primary);
+    height: 98.4vh;
+    margin: 0.8vh;
+    font-size: var(--font-size-primary);
+    text-align: center;
 }
 
 main {
-	flex-grow: 1;
-	padding: var(--twelve);
-	overflow: auto;
+    flex-grow: 1;
+    padding: var(--twelve);
+    overflow: auto;
 }
 
 /* Footer */
 
 footer {
-	border-block-start: var(--border-primary);
-	padding: 1rem 0;
+    border-block-start: var(--border-primary);
+    padding: 1rem 0;
 }
 
 /* Media Query */
 
 /* Font Size */
 @media (max-width: 30rem) { /* 480px */
-	html {
-		font-size: calc(1rem - 10%);
-	}
+    html {
+        font-size: calc(1rem - 10%);
+    }
 }
 /* -------- */
