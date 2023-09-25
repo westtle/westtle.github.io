@@ -119,6 +119,13 @@ const list = [
 		category: "Tools"
 	},
 	{
+		title: "The Babylonian Method",
+		description: "The Babylonian square root algorithm made for uni project.",
+		directory: "https://westtle.github.io/the-babylonian-method/",
+		repository: "https://github.com/westtle/the-babylonian-method",
+		category: "Tools"
+	},
+	{
 		title: "Goodbye World!",
 		description: "Goodbye World!",
 		directory: "https://westtle.github.io/goodbye-world/",
